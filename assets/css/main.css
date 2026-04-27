@@ -8677,3 +8677,10 @@ p {
 .banner .content p {
     font-size: 0.95rem;
 }
+
+
+
+.banner .image img {
+    filter: contrast(1.05) brightness(1.02);
+    border-radius: 6px;
+}
