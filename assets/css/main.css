@@ -8739,3 +8739,61 @@ p {
     border-top: 1px solid #e5e7eb;
     border-bottom: 1px solid #e5e7eb;
 }
+
+#recognition {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#recognition .inner {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#recognition p {
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto 1.5rem auto;
+  text-align: center;
+  line-height: 1.7;
+  box-sizing: border-box;
+}
+
+#recognition .actions {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#recognition .actions li {
+  padding-left: 0;
+}
+
+#recognition .button {
+  max-width: 100%;
+  white-space: normal;
+}
+@media screen and (max-width: 736px) {
+  #recognition .inner {
+    padding: 3rem 1.25rem;
+  }
+
+  #recognition h2 {
+    font-size: 2rem;
+  }
+
+  #recognition p {
+    max-width: 100%;
+    font-size: 0.95rem;
+  }
+
+  #recognition .button {
+    width: 100%;
+    max-width: 280px;
+  }
+}
