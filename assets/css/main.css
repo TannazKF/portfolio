@@ -8714,3 +8714,28 @@ p {
     line-height: 1.7;
     font-style: italic;
 }
+
+
+#recognition {
+    background-color: #f8f9fb;
+    padding: 4rem 0;
+}
+
+#recognition h2::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #6c7ae0; /* soft blue */
+    margin: 0 auto 1rem auto;
+}
+#recognition .inner {
+    background:white;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+}
+#recognition {
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
